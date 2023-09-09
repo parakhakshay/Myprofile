@@ -11,6 +11,18 @@ uploading files in this branch:
 5. next screen will be opened automatically, click on push origin, that's it.
 
 
+&&&&&&&& YOUR NEW UPLOADED FILES WILL BE IN BRANCH2 &&&&&&&&&&&&&
+
+
 ///////////////////////////////////////////////////////////////////////////////////
 
 Do not click on pull request button until unless you want to (merge files/copy files/copy edited or changed files) from this branch1 to main or vice versa.
+
+
+
+
+
+************NOTE***************
+
+
+This will be applicable for new other branch and opposite ie from "main" to "branch2" or any other newly created branch.

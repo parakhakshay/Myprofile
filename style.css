@@ -184,3 +184,8 @@ border-radius: 200px;
 
 
 }
+
+.body2::selection{
+    background-color: red;
+    color: red;
+}

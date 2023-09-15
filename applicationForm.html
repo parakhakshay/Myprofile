@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body >
+    <h2>Application Form</h2>
+    <fieldset>
+        <legend> Application Form</legend>
+        <table>
+            <form >
+            <tbody>
+                <tr>
+                    <td> <label for="">Full Name</label></td>
+                    <td><input type="text" autofocus maxlength="40" placeholder=" COMPLETE FULL NAME " ></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Email</label></td>
+                    <td><input type="email" placeholder="Ex.abc@gmail.com" ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td ><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">contact no</label></td>
+                    <td><input type="tel" required></td>
+                </tr>
+                <tr>
+                   <td> <label for="">Profile Photo</label></td>
+                   <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Date of Birth</label></td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td> <label for="">Gender</label></td>
+                    <td>
+                        <input type="radio"  name="gender"> <label for="">Male</label>
+                        <input type="radio" name="gender"><label for="">Female</label>
+                        <input type="radio" name="gender"><label for="">other</label>
+                    </td>
+
+                </tr>
+                <td> <label for="">Marital Status</label></td>
+                <td>
+                    <input type="radio" name="marriage"><label for="">Married</label>
+                    <input type="radio" name="marriage"><label for="">Unmarried</label>
+                </td>
+                <tr>
+                    <td><label for="">Known Tools and Technology</label></td>
+                    <td>
+                        <input type="checkbox"><label for="">MySQL</label>
+                        <input type="checkbox"><label for="">jAVA</label>
+                        <input type="checkbox"><label for="">HTML</label>
+                        <input type="checkbox"><label for="">CSS</label>
+                        <input type="checkbox"><label for="">Bootstrap</label>
+                        <input type="checkbox"><label for="">javaScript </label>
+                        <input type="checkbox"><label for="">React</label>
+                        <input type="checkbox"><label for="">Angular</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Designation</label></td>
+                    <td>
+                      <select name="" id="">
+                        <option value="UI Developer">UI Developer</option>
+                        <option value="Backend  Developer ">Backend  Developer</option>
+                        <option value="Full stack  Developer">Full stack  Developer</option>
+                        <option value="DevOPES  Developer">DevOPES  Developer</option>
+                        <option value="Tester">Tester</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+                    <td><input type="text" value="India" readonly disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="">Present Address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="7"></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">submit</button></td>
+                    <td><button type="reset">reset</button></td>
+                </tr>
+            </form>
+          </tbody>
+ </table>
+
+
+    </fieldset>
+
+
+    <h4> Created By Komal Kale</h4>
+    
+</body>
+</html>

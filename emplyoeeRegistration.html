@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+
+    <style>
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@500&display=swap');
+
+        h2{
+            text-align: center;
+             font-family: 'Roboto', sans-serif;
+            letter-spacing: 5px;
+            /* color:white; */
+        }
+     
+        .align{
+            /* color: white; */
+            font-family: 'Poppins', sans-serif;
+            /* margin-left: 400px; */
+        }
+
+        legend{
+            padding: 0px 20px 0px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            /* background-color: yellow; */
+            letter-spacing: 3px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        body{
+
+            
+           /* background-color: black; */
+         
+
+        }
+        ::placeholder{
+
+            color:rgb(92, 92, 92);
+        }
+        input:hover{
+            background-color: rgb(235, 235, 235);
+        }
+
+        button:hover{
+            color: black;
+            background-color:yellow
+        }
+
+        input[type=file]:hover{
+            color: black;
+            background-color: yellow;
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <h2>Employee Registration Form</h2>
+
+    <fieldset>
+
+        <legend><p>Employee Registration Form</p></legend>
+        <div class="align">
+            <table>
+            <form>
+                <tbody>
+                    <tr>
+                        <td><label for="">Full Name</label></td>
+                        <td><input type ="text" autofocus maxlength="40" placeholder="Enter your full name" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Mobile</label></td>
+                        <td><span class="textbeforefield"></span><input type ="tel" autofocus maxlength="10" placeholder="+917212345678" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">E-mail</label></td>
+                        <td><span class="textbeforefield"></span><input type ="email" autofocus maxlength="40" placeholder="" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Password</label></td>
+                        <td><span class="textbeforefield"></span><input type ="password" autofocus maxlength="20" placeholder="" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Select Gender</label></td>
+                        <td>
+                        <span class="textbeforefield"></span><input type ="radio"  name="gender" ><label for="">Male</label>
+                        <span class="textbeforefield"></span><input type ="radio"  name="gender" ><label for="">Female</label>
+                        <span class="textbeforefield"></span><input type ="radio"  name="gender" ><label for="">Other</label>
+                        </td>
+
+                    </tr>
+
+                        <tr>
+                            <td><label for="">Select Your TechStack</label></td>
+                            <td>
+                            <span class="textbeforefield"></span><input type ="checkbox"  name="checkbox" ><label for="">JavaScript</label>
+                            <span class="textbeforefield"></span><input type ="checkbox"  name="checkbox" ><label for="">HTML&amp;CSS</label>
+                            <span class="textbeforefield"></span><input type ="checkbox"  name="checkbox" ><label for="">Bootstrap</label>
+                            <span class="textbeforefield"></span><input type ="checkbox"  name="checkbox" ><label for="">React</label>
+                            <span class="textbeforefield"></span><input type ="checkbox"  name="checkbox" ><label for="">Angular</label>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label for="">Upload your Marksheets</label></td>
+                            <td><span class="textbeforefield"></span><input type ="file" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Upload your Profile Photo</label></td>
+                            <td><span class="textbeforefield"></span><input type ="file" required></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="">Choose your Birth-date</label></td>
+                            <td><span class="textbeforefield"></span><input type ="date" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Select your State</label></td>
+                            <td><span class="textbeforefield"></span>
+                            <select name="" id="">
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Kolkata">Kolkata</option>
+                            </select>
+                          
+                        </tr>
+    
+                        <tr>
+                            <td><label for="">Country</label></td>
+                            <td><input type="text" value="India" readonly disabled></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="">Permanent Address</label></td>
+                            <td><textarea name="" id="" cols="30" rows="7"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><button type="reset">reset</button></td>
+                            <td><button type="submit">submit</button></td>
+                        </tr>
+    
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </fieldset>
+    
+</body>
+</html>

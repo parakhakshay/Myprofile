@@ -12,6 +12,25 @@
 
 
     <style>
+        li{
+            list-style-type:none;
+
+        }
+
+        /* to use different emoji use :nth-child() 
+        and give number inside the circular brackets like below */
+        /* li:nth-child(1)::before{
+
+            content: "✍️";
+
+        } */
+
+
+        li::before{
+
+        content: "✍️";
+
+        }
         .heading{
 
             color: black;
@@ -24,7 +43,7 @@
         }
         .headinpara{
 
-            
+            margin-left:60px;
             font-family: 'Poppins', sans-serif;
 
         }
@@ -45,9 +64,22 @@
 
         .bullettext{
 
-            color:blue;
+            color:rgb(108, 75, 199);
             font-family: 'Poppins', sans-serif;
             
+        }
+
+
+        
+        .bullettext::selection{
+
+        background-color: red;
+
+        }
+
+        .headinpara::selection{
+
+            background-color: red;
         }
         
 
@@ -122,69 +154,5 @@
 </ul>
    
 </body>
-<!--<style>
-
-.ul{
-
-    margin-top: -20px;
-    color:rgb(0, 0, 0);
-    background-color: white;
-    padding-bottom: 20px;
-    padding-top:10px;
-    padding-left: 103px;
-    padding-right: -103px;
-    margin-right: 20%;
-
-}
-
-.body2{
-
-background-color: rgb(25, 68, 97);
-margin-left: 20px;
-}
-
-.h11{
-color: rgb(119, 172, 50);
-font-weight: 500;
-
-
-
-}
-
-
-
-.h11::after{
-
-content: "";
-height: 5px;
-width: 45px;
-background-color: rgb(33, 141, 155);
-position:absolute;
-left:20px;
-top:70px;
-
-
-
-
-}
-
-.h22{
- margin-top: 60px;
-
- background-color: white;
- padding-bottom: 0px;
- padding-top: 15px;
- padding-left: 40px;
- padding-right: -103px;
-margin-right: 20%;
-
-}
-
-
-</style>-->
-
-
-
-
 
 </html>

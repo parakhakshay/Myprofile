@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple percentage Calculator</title>
+
+    <style>
+
+        .block{
+
+            display: inline-block;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            height: 400px;
+            width:450px;
+            
+           
+        }
+
+        .heading{
+
+            text-align: center;
+            text-transform: uppercase;
+            color:cadetblue
+            
+        }
+
+        .secondHeading{
+
+            margin-left: 16px;
+            color: cadetblue;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .thirdHeading{
+
+            margin-left: 16px;
+            color: cadetblue;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .billAmountfield{
+            color: none;
+            display: inline-block;
+            border-radius: 8px;
+            border: 2px solid cadetblue;
+            width: 91%;
+            margin-left: 16px;
+            height: 20px;
+        }
+
+        .billAmountfield:focus{
+            border: 2px solid cadetblue;
+            outline: none;
+
+        }
+
+
+
+        .fourthHeading{
+
+            margin-left: 16px;
+            color: cadetblue;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .discountfield{
+        
+            color: none;
+            display: inline-block;
+            border-radius: 8px;
+            border: 2px solid cadetblue;
+            width: 91%;
+            margin-left: 16px;
+            height: 20px;
+
+        }
+
+        .discountfield:focus{
+
+            
+            border: 2px solid cadetblue;
+            outline: none;
+
+        }
+        .button{
+            display: inline-block;
+            font-family: 'Poppins' , sans-serif;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin-top: 30px;
+            margin-left: 16px;
+            background-color: #4caf50;
+            color: white;
+            border:2px solid transparent;
+            border-radius: 8px;
+            padding: 10px;
+            width: 93%;
+        }
+
+        .button:hover{
+
+            background-color:burlywood;
+
+        }
+
+        .total{
+
+            margin-left: 16px;
+            color: cadetblue;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="block">
+        <h2 class="heading">
+            DISCOUNT Calculator
+        </h2>
+            <P class="secondHeading">
+                Enter the bill amount and discount in percentage
+            </P>
+        
+            <P class="thirdHeading">
+                Bill Amount
+            </P>
+            <input type="field" class="billAmountfield">
+
+            <P class="fourthHeading" class="billAmountField">
+              Discount Percentage
+            </P>
+
+            <input type="field" class="discountfield">
+
+            <button type="button" class="button">Calculate</button>
+      
+            <p class="total">Total Discount Amount</p>
+
+        </div>
+
+
+</body>
+</html>
